@@ -1,4 +1,5 @@
 from time import time as perf_counter
+from memory_profiler import profile # Memory profile wrapper
 import random
 
 # Timing wrapper
