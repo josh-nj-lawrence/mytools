@@ -7,6 +7,7 @@ def pass_func(n):
         pass
 
 @timeit
+@profile
 def if_func(n):
     for i in range(n):
         if i == n-1:
